@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "bloomotion",
+  "version": "0.1",
+  "description": "express your feelings and see what it is",
+  "icons": {
+    "16": "./images/icon16.png",
+    "128": "./images/icon128.png"
+  },
+  "action": {
+    "default_popup": "./popup.html",
+    "default_icon": "./images.icon16.png"
+  },
+  "permissions": ["storage", "identity"],
+  "host_permissions": ["<all_urls>"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "oauth2": {
+    "client_id": "598905962481-jke70grb6ouihdds3ihgljapf7f90rar.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/contacts.readonly",
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  }
+}

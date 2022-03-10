@@ -1,0 +1,43 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  width: 120px;
+  height: 120px;
+  background-color: #000000;
+}
+
+.description {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.confirmMessage {
+  margin-top: 20px;
+  margin-left: 35px;
+  color: yellow;
+  font-size: 14px;
+}
+
+.registerButton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  width: 70px;
+  height: 25px;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  background-color: #ffffff;
+  color: #000000;
+}

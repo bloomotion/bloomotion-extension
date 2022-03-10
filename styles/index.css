@@ -1,0 +1,39 @@
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.logo {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  width: 75px;
+  height: 75px;
+  background-color: #000000;
+}
+
+.logoText {
+  margin-top: 40px;
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+}
+
+.errorMessage {
+  position: absolute;
+  top: 55%;
+  width: 300px;
+  margin-left: 565px;
+  font-size: 16px;
+}
