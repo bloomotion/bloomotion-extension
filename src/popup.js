@@ -1,4 +1,4 @@
-import { getUser, getEmotion } from "../utils/user.js";
+import { getUser, getEmotion } from "../api/user.js";
 import { CANT_FIND_USER, COMPLETE } from "../constants/interaction.js";
 
 const $registerButton = document.querySelector(".registerButton");

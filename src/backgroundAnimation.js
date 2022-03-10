@@ -63,6 +63,7 @@ function createCircle() {
       circles[i].y,
       circles[i].r
     );
+
     radialGradient.addColorStop(0, circles[i].color);
     radialGradient.addColorStop(1, circles[i].color + "00");
     context.arc(circles[i].x, circles[i].y, circles[i].r, 0, PI2, false);
