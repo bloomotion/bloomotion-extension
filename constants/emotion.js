@@ -9,3 +9,9 @@ export const FLOWERS = {
   sad: "Anemone",
   angry: "Orange Lily",
 };
+
+export const EMOTION = {
+  happy: "Happy",
+  sad: "Sad",
+  angry: "Angry",
+};
