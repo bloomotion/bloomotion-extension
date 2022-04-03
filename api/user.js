@@ -15,7 +15,7 @@ export async function getUser(email) {
 
     return result;
   } catch (err) {
-    console.error(err);
+    throw new Error(err);
   }
 }
 
@@ -34,6 +34,6 @@ export async function getEmotion(id, accessToken) {
 
     return result;
   } catch (err) {
-    console.error(err);
+    throw new Error(err);
   }
 }
