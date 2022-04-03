@@ -5,6 +5,7 @@
   "description": "express your feeling",
   "icons": {
     "16": "./images/icon16.png",
+    "48": "./images/icon48.png",
     "128": "./images/icon128.png"
   },
   "action": {
@@ -17,7 +18,7 @@
     "newtab": "index.html"
   },
   "oauth2": {
-    "client_id": "598905962481-jke70grb6ouihdds3ihgljapf7f90rar.apps.googleusercontent.com",
+    "client_id": "YOUR CLIENT_ID",
     "scopes": [
       "https://www.googleapis.com/auth/contacts.readonly",
       "https://www.googleapis.com/auth/userinfo.email"
